@@ -1,0 +1,20 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+svg path {
+    stroke-width: 2px;
+}
+
+#curve{
+    height: 200px;
+    width: 1536px;
+}

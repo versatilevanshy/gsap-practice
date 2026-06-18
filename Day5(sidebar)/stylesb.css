@@ -1,0 +1,83 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1666003406500-d9d73d3ba016?q=80&w=1074&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 50px;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
+#nav i{
+    font-size: 30px;
+    font-weight: 800;
+    cursor: pointer;
+}
+#full{
+    height: 100%;
+    width: 35%;
+    position: absolute;
+    background-color: rgba(73, 159, 212, 0.518) ;
+    top: 0;
+    right: -35%;
+    backdrop-filter: blur(10px);
+    padding: 170px 70px;
+}
+#full h4{
+    font-size: 40px;
+    font-weight: 500;
+    margin-bottom: 15px;
+    color: rgb(10, 52, 78) ;
+
+}
+#full i{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+   background-color:rgb(7, 36, 54) ;
+   border-radius: 50%;
+   padding: 5px;
+   font-weight: 600;
+   font-size: 20px;
+   cursor: pointer;
+}
+#main h1{
+    font-size: 100px;
+    color: rgb(7, 36, 54);
+    line-height: 100px;
+    overflow:hidden;
+}
+#main h1 span{
+    display: inline-block;
+}
+#nav h2, #nav i, #full i {
+    color: rgb(73, 159, 212);
+}
+
+#main h1 {
+    color: rgb(7, 36, 54);
+}
