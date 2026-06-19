@@ -1,0 +1,17 @@
+window.addEventListener("wheel",function(dets){
+    if(dets.deltaY>0){
+        gsap.to(".marquee",{
+            transform:"translateX(-200%)",
+            repeat:-1,
+            duration:4,
+            ease:"none"
+        })
+    }else{
+        gsap.to(".marquee",{
+            transform:"translateX(0%)",
+            repeat:-1,
+            duration:4,
+            ease:"none"
+        })  
+    }
+})
